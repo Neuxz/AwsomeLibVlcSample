@@ -102,8 +102,11 @@
     <PackageReference Include="VideoLAN.LibVLC.Windows">
       <Version>3.0.4</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>3.0.0.446417</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms.Platform.WPF">
-      <Version>3.4.0.925479-pre1</Version>
+      <Version>3.0.0.446417</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
