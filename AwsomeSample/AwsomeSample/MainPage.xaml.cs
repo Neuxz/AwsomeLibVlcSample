@@ -17,11 +17,14 @@ namespace AwsomeSample
             //But OnAppearing() is never reached.
             Console.WriteLine("Entered ContentPage Constructor");
             InitializeComponent();
-
-
         }
         protected override void OnAppearing()
         {
+            videoView.LibVLC.Log += (s, e) =>
+            {
+                Console.WriteLine(e);
+            };
+
             Console.WriteLine("Entered Component Appeard!");
 
             base.OnAppearing();
