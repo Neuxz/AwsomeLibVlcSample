@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:AwsomeSample"
              xmlns:shared="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms"
              x:Class="AwsomeSample.MainPage">
-    <shared:VideoView x:Name="videoView" HorizontalOptions="Center" VerticalOptions="Center"/>
+    <shared:VideoView x:Name="videoView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
     <!--<Label Text="Bool11"/>-->
 </ContentPage>

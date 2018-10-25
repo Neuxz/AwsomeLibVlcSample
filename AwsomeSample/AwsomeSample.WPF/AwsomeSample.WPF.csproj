@@ -99,9 +99,6 @@
     <PackageReference Include="LibVLCSharp.Forms.WPF">
       <Version>0.0.1-alpha</Version>
     </PackageReference>
-    <PackageReference Include="LibVLCSharp.WPF">
-      <Version>0.0.1-alpha1</Version>
-    </PackageReference>
     <PackageReference Include="VideoLAN.LibVLC.Windows">
       <Version>3.0.4</Version>
     </PackageReference>
