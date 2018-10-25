@@ -15,32 +15,32 @@ namespace AwsomeSample
             //So here we go
             //It runns trough the Constructor
             //But OnAppearing() is never reached.
-            System.Diagnostics.Debugger.Break();
+            Console.WriteLine("Entered ContentPage Constructor");
             InitializeComponent();
 
 
         }
         protected override void OnAppearing()
         {
-            System.Diagnostics.Debugger.Break();
+            Console.WriteLine("Entered Component Appeard!");
 
             base.OnAppearing();
 
             videoView.MediaPlayer.EncounteredError += (s, e) =>
             {
-                System.Diagnostics.Debugger.Break();
+                Console.WriteLine("Error" + s + e);
             };
             videoView.MediaPlayer.Stopped += (s, e) =>
             {
-                System.Diagnostics.Debugger.Break();
+                Console.WriteLine("Stopped");
             };
             videoView.MediaPlayer.Buffering += (s, e) =>
             {
-                System.Diagnostics.Debugger.Break();
+                Console.WriteLine("Buffering");
             };
             videoView.MediaPlayer.Playing += (s, e) =>
             {
-                System.Diagnostics.Debugger.Break();
+                Console.WriteLine("Playing");
             };
 
             videoView.MediaPlayer.Play(new Media(videoView.LibVLC,
