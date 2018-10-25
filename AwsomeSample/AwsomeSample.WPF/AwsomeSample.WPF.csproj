@@ -87,6 +87,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,20 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="LibVLCSharp.Forms.WPF">
-      <Version>0.0.1-alpha</Version>
-    </PackageReference>
-    <PackageReference Include="VideoLAN.LibVLC.Windows">
-      <Version>3.0.4</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Forms">
-      <Version>3.2.0.871581</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Forms.Platform.WPF">
-      <Version>3.2.0.839982</Version>
-    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AwsomeSample\AwsomeSample.csproj">
